@@ -2,7 +2,7 @@
 
 This data engineering pipeline is designed to treat single-cell nano CUT&Tag 10X
 with protocol design from the Institut Curie SingleCellOmics Platform and Vallot Lab.
-The dataset starts from raw BCL sequencing files to exploitable output such
+The dataset starts from raw FASTQ files to exploitable output such
 as count matrices, coverage file and report.  
 
 
