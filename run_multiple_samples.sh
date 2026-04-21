@@ -32,11 +32,11 @@ do
   
   echo $FINAL_NAME 
   
-  OUTPUT_DIR=/mnt/beegfs/home/gjouault/stageout/kdi_workspace/1184/02.00/results/scCutTag/${ASSEMBLY}/${FINAL_NAME}
+  # OUTPUT_DIR=/mnt/beegfs/home/gjouault/stageout/kdi_workspace/1184/02.00/results/scCutTag/${ASSEMBLY}/${FINAL_NAME}
   # or # 
   OUTPUT_DIR=/mnt/beegfs/home/gjouault/stageout/kdi_workspace/1760/02.00/results/scCutTag/${ASSEMBLY}/${FINAL_NAME}
 
-  FASTQ_DIR=/mnt/beegfs/home/gjouault/stagein/kdi_workspace/1184/02.00/data/${DATASET_NUMBER}/FastqForAllSamples/
+  # FASTQ_DIR=/mnt/beegfs/home/gjouault/stagein/kdi_workspace/1184/02.00/data/${DATASET_NUMBER}/FastqForAllSamples/
   # or # 
   FASTQ_DIR=/mnt/beegfs/home/gjouault/stagein/kdi_workspace/1760/02.00/data/${DATASET_NUMBER}/FastqForAllSamples/
 
