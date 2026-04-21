@@ -2,15 +2,15 @@
 ## PATHS AND SETTINGS
 #########################################################################
 
-BOWTIE_PATH = /bioinfo/local/build/Centos/bowtie/bowtie-1.2/bin/
-BOWTIE2_PATH = /bioinfo/local/build/Centos/bowtie2/bowtie2-2.2.9/
-SAMTOOLS_PATH = /bioinfo/local/build/Centos/samtools/samtools-1.3/bin/
-BEDTOOLS_PATH = /bioinfo/local/build/Centos/bedtools/bedtools-2.27.1/bin/
-PYTHON_PATH = /bioinfo/local/build/Centos/python/python-2.7.13/bin/
-R_PATH = /bioinfo/local/build/Centos/R/R-3.5.0/bin/
-FASTX_PATH = /bioinfo/local/build/fastx_toolkit_0.0.13/
-STAR_PATH = /bioinfo/local/build/Centos/STAR/STAR-2.7.5a/bin/Linux_x86_64/
-BWA_PATH = /bioinfo/local/build/Centos/bwa/bwa-0.7.15/
+#BOWTIE_PATH = /bioinfo/local/build/Centos/bowtie/bowtie-1.2/bin/
+BOWTIE2_PATH = /mnt/beegfs/common/apps/bowtie2/2.5.5/
+SAMTOOLS_PATH = /mnt/beegfs/common/apps/samtools/1.23/bin/
+BEDTOOLS_PATH = /mnt/beegfs/common/apps/bedtools/2.31.1/bin/
+PYTHON_PATH = /mnt/beegfs/common/apps/python2/2.7.18/bin/
+R_PATH = /mnt/beegfs/common/apps/R/R-4.3.1/
+#FASTX_PATH = /bioinfo/local/build/fastx_toolkit_0.0.13/
+STAR_PATH = /mnt/beegfs/common/apps/star/STAR-2.7.11b/bin/Linux_x86_64/
+#BWA_PATH = /bioinfo/local/build/Centos/bwa/bwa-0.7.15/
 
 
 #########################################################################
