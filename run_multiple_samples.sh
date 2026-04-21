@@ -2,7 +2,7 @@
 sample_sheet=$1
 
 cores=8
-mem=20G
+mem=60G
 walltime=164:00:00
 
 
