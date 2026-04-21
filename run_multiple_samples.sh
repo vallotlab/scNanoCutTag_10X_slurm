@@ -41,7 +41,8 @@ do
   FASTQ_DIR=/mnt/beegfs/home/gjouault/stagein/kdi_workspace/1760/02.00/data/${DATASET_NUMBER}/FastqForAllSamples/
 
 
-  OUTPUT_CONFIG=${OUTPUT_DIR}/CONFIG_scNanoCutTag_10X_${FINAL_NAME}
+  OUTPUT_CONFIG=/mnt/beegfs/home/gjouault/persistent/tmp_configs/CONFIG_scNanoCutTag_10X_${FINAL_NAME}
+  mkdir -p /mnt/beegfs/home/gjouault/persistent/tmp_configs
 
 #Check if we can remove the -- mark
   ./schip_processing.sh GetConf --template  CONFIG_TEMPLATE --configFile species_design_configs.csv --designType ${DESIGN_TYPE} --genomeAssembly ${ASSEMBLY} --outputConfig ${OUTPUT_CONFIG}
@@ -65,7 +66,7 @@ do
     --time="$walltime" \
     --output="$OUTPUT_DIR/logs/slurm-%j.out" \
     --error="$OUTPUT_DIR/logs/slurm-%j.err" \
-    --wrap="cd /mnt/beegfs/home/gjouault/GitLab/scNanoCutTag_10X_slurm/; ./schip_processing.sh All -i ${FASTQ_DIR} -d ${DATASET_NAME} -c ${OUTPUT_CONFIG} -o ${OUTPUT_DIR} --name ${FINAL_NAME} --nanobc ${NANOBC}"
+    --wrap="cd /mnt/beegfs/home/gjouault/Gitlab/scNanoCutTag_10X_slurm/; ./schip_processing.sh All -i ${FASTQ_DIR} -d ${DATASET_NAME} -c ${OUTPUT_CONFIG} -o ${OUTPUT_DIR} --name ${FINAL_NAME} --nanobc ${NANOBC}"
 
 
 done < "$sample_sheet"
