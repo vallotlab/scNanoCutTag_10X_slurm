@@ -7,7 +7,7 @@ walltime=164:00:00
 
 
 #CREATE CONFIG FILE : HUMAN, BEADS CURIE, IP, BED = 20k +50k
-cd ~/GitLab/scNanoCutTag_10X_slurm/
+cd /mnt/beegfs/home/gjouault/Gitlab/scNanoCutTag_10X_slurm
 
 while IFS= read -r line
 do
