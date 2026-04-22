@@ -72,7 +72,7 @@ ENCODE_BLACKLIST = {encode_blacklist}
 MIN_COUNT_PER_BARCODE_AFTER_RMDUP = {min_count_per_barcode_after_rmdup}
 BIN_SIZE = {bin_size}
 BED_FEATURES = {bed_features}
-TMP_DIR = /scratch/
+TMP_DIR = /tmp/
 
 #########################################################################
 ## DOWNSTREAM ANALYSIS
